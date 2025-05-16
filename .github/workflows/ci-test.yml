@@ -6,4 +6,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: python testars.py
+      - run: newman run "Simple Grocery Store API.postman_collection"
