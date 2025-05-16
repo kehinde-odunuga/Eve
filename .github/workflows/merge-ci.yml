@@ -8,4 +8,4 @@ jobs:
         os: [ ubuntu-latest, macos-latest, windows-latest ]
     steps:
       - uses: actions/checkout@v3
-      - run: newman run "Simple Grocery Store API.postman_collection"
+      - run: newman run "Simple Grocery Store API.postman_collection.json"
