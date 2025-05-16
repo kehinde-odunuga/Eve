@@ -4,3 +4,5 @@ function calculateAreaOfRectangle(length, width) {
     return area;
 }
 console.log(calculateAreaOfRectangle(10, 20));
+
+console.log("Finished")
